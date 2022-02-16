@@ -20,6 +20,8 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-data-mongodb-reactive")
 	// RSocket
 	implementation("org.springframework.boot:spring-boot-starter-rsocket")
+	// Lambok
+	compileOnly("org.projectlombok:lombok:1.18.22")
 	// WebFlux
 	implementation("org.springframework.boot:spring-boot-starter-webflux")
 	// Reactor
